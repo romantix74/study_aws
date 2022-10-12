@@ -1,3 +1,29 @@
+Code - Build - Test - Release - Deploy - Monitor
+
+- Create a highly collaborative env
+- Automate when possible
+- Focus on customer needs
+- Develop small and release often
+- Include security at every phase
+- Continuously experiment and learn
+- Continuously improve
+
+
+MODULE 2: DEVOPS METHODOLOGY
+--- 2 ----
+
+DevOps is a combination of:
+
+Cultural philosophies for removing barriers and sharing end-to-end responsibility
+Processes developed for speed and quality, that streamline the way people work
+Tools that align with processes and automate repeatable tasks, making the release process more efficient and the application more reliable
+
+Getting Started with DevOps on AWS
 https://explore.skillbuilder.aws/learn/course/2000
 
+-- 1 ---
+
+
+
+https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_DevOps.pdf
 ==2022.10.12====
