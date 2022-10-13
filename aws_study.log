@@ -1,3 +1,97 @@
+
+
+- Explain how to use AWS CodeDeploy to deploy web applications to Amazon Elastic Compute Cloud (Amazon EC2) servers in multiple Regions. 
+- Explain how to use AWS CodePipeline to establish a continuous integration and
+perform continuous deployment to multiple Regions.
+
+MODULE 5: AWS AND DEVOPS DEMO
+
+
+
+Monitoring  services
+    AWS X-Ray is a distributed tracing system
+    Amazon CloudWatch
+    AWS Config
+    AWS CloudTrail 
+
+Containers and serverless services
+    AWS Lambda
+    Amazon Elastic Container service (Amazon ECS)  
+
+
+Infrastructure management services
+    AWS CloudFormation is an infrastructure-as-code service.
+    AWS OpsWorks
+
+AWS Cloud9 is Amazon's cloud-based IDE, which you can use to write, run, and debug your code with just a browser. You can use AWS Cloud9 to make code changes in a CodeCommit repository. You can also use AWS Cloud9 with the AWS specific software development kits (SDKs). 
+
+Each stage can have a number of actions that need to be performed. 
+
+Actions are tasks that can run in sequence or in parallel to each other. Actions are associated with a service provider that runs the action, or they can require user intervention. Service providers can be AWS services (like CodeBuild, Amazon Simple Storage Service (Amazon S3), AWS Lambda, and AWS CloudFormation), or third-party services (like Jenkins and TeamCity). 
+Action types include: 
+    - Source (where the source is stored)
+    - Build (how to build the application)
+    - Test  how to test the application)
+    - Deploy (how to deploy the application)
+    - Approval (manual approval and notifications)
+    - Invoke (Invoke a custom function).
+
+AWS CodePipeline
+    - Capture and visualize your pipeline, run it, view real-time status, and retry failed actions.
+    - Automate your release processes, eliminating human error, speed up delivery, and improve the quality of the release. 
+    - Establish consistency in the release.
+    - Incorporate your source, build, and deploy tools.
+    - View pipeline history details.
+    - Integrate with third-party and AWS tools to build, test, and deploy your code when notified of a code change. 
+
+
+Devops_pipline_in_AWS.png
+
+
+List the AWS services available to implement a successful DevOps methodology.
+Identify the AWS services used to automate the continuous integration and continuous
+delivery process.
+MODULE 4: AWS DEVOPS TOOLS
+
+
+
+Use tools and automate
+
+
+Decompose for agility
+    mall, cross-functional, autonomous, and independent two pizza teams were developed
+
+
+Describe the transition from a monolithic approach to a microservices architecture.
+Describe the benefits of smaller, autonomous teams.
+
+MODULE 3: AMAZON'S DEVOPS TRANSFORMATION
+
+
+
+Devops Tools
+- Cloud
+- Development
+    IDEs: AWS Cloud9, IntelliJ, Eclipse, Visual Studio Code
+    SDKs: AWS SDK for Java, iPhone SDK
+    Source code repositories: GitHub, AWS CodeCommit
+- CI/CD
+    Build tools: Jenkins, Travis CI, AWS CodeBuild
+    Source control tools, repositories: Git, AWS CodeCommit
+    Deployment tools: AWS CodeDeploy, AWS CloudFormation
+    Pipeline automation tools: AWS CodePipeline, Jenkins, GitLab
+- Infrastructure automation
+    Infrastructure automation tools: AWS CloudFormation, Terraform, AWS Elastic Beanstalk
+    Configuration management tools: Chef, Puppet, AWS OpsWorks
+- Container and serverless
+    Serverless services: AWS Lambda, AWS Fargate
+    Container services:
+    Runtimes: Docker, Containerd
+    Orchestration: Amazon Elastic Container Service (Amazon ECS), Kubernetes, Amazon Elastic Kubernetes Service (Amazon EKS)
+- Monitoring and observability
+    AWS X-Ray, Amazon CloudWatch, AWS Config, AWS CloudTrail
+==== 2022.10.13====
+
 Code - Build - Test - Release - Deploy - Monitor
 
 - Create a highly collaborative env
